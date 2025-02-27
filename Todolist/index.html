@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Todo List📆</title>
+</head>
+
+<body>
+    <!-- 시계 -->
+    <h2 id="clock">00:00:00</h2>
+
+    <!-- 로그인 폼 -->
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?" />
+        <input type="submit" value="Log in">
+    </form>
+
+    <!-- 인사말 -->
+    <h1 class="hidden" id="greeting"></h1>
+
+    <!-- Todo 입력 폼 -->
+    <form id="todo-form">
+        <input type="text" placeholder="Write a ToDo & Press Enter!" required />
+    </form>
+
+    <!-- Todo 리스트 -->
+    <ul id="todo-list"></ul>
+
+    <!-- 인용구 -->
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- 날씨 정보 -->
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- 스크립트 파일들 -->
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
