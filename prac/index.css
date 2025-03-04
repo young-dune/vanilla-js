@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.header {
+    background-color: yellowgreen;
+    height: 130px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    border: 1px solid red;
+    height: calc(100vh - 260px);
+}
+
+.article, .aside, .nav{
+}
+
+.article {
+    background-color: #eee;
+    flex: 3;
+}
+
+.aside {
+    background-color: #ddd;
+    width: auto;
+    flex: 1;
+}
+
+.nav {
+    background-color: #ccc;
+    flex: 1;
+}
+
+.footer {
+    background-color: brown;
+    height: 130px;
+    text-align: center;
+}
